@@ -1,25 +1,25 @@
-#TODOLIST
+# TODOLIST
 
 TodoList is a simple web application that allows you to create and manage your to-do lists. You can add items to the list, mark them as completed by checking the checkboxes, and remove them from the list.
 
-##Features
+## Features
 
 - Create multiple to-do lists eg. todolist/Work
 - Add new items to the list
 - Remove items from the list
 
-##Technologies Used
+## Technologies Used
 
--Front-end: HTML, CSS, JavaScript
--Back-end: Node.js, Express.js
--Database: MongoDB
--External Libraries: Mongoose, EJS
+- Front-end: HTML, CSS, JavaScript
+- Back-end: Node.js, Express.js
+- Database: MongoDB
+- External Libraries: Mongoose, EJS
 
-##Installation
+## Installation
+
 To run the TodoList application locally, please follow these steps:
 
 1. Clone the repository:
-   bash:
    git clone https://github.com/your-username/TodoList.git
 
 2. Install the dependencies:
