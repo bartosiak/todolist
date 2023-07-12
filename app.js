@@ -4,7 +4,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
-//
+const username = process.env.DB_USERNAME;
+const password = process.env.DB_PASSWORD;
 const app = express();
 
 app.set("view engine", "ejs");
@@ -12,8 +13,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-const uri =
-  "mongodb+srv://admin-damian:9zct1VX7DgsVrHqJ@todolist.xxrtvnd.mongodb.net/todolistDB?retryWrites=true&w=majority";
+const uri = process.env.MONGODB_URI;
 
 mongoose
   .connect(uri, {
