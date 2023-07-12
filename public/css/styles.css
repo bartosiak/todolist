@@ -3,6 +3,9 @@ html {
   background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
   min-height: 1000px;
   font-family: "helvetica neue";
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 h1 {
